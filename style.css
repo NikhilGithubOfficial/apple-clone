@@ -224,11 +224,9 @@
   .photo-grid {
     width: 100%;
     margin: auto;
-    max-width: 1440px;
   }
   
   .photo-grid-ul {
-    max-width: 1440px;
     list-style: none;
     display: flex;
   }
