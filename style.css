@@ -235,11 +235,14 @@
   
   .photo-grid-li {
     margin-top: 2px;
-    width: 25%;
     margin-right: 2px;
     overflow-x: hidden;
-    justify-content: center;
     cursor: pointer;
+  }
+
+  .photo-grid-li img {
+    object-fit: cover;
+    margin: 0px 0px 0px -25px;
   }
   
   .photo-grid-li:nth-child(4) {
@@ -261,10 +264,16 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: #6d6d6d;
-    padding: 5px 0px;
+    padding: 10px 0px;
+    box-sizing: border-box;
   }
   
   .link {
     cursor: pointer;
     color: #0088cc;
+  }
+
+  .link img {
+      position: relative;
+      top: 5px;
   }
