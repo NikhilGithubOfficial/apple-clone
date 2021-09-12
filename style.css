@@ -240,7 +240,6 @@
 
   .photo-grid-li img {
     object-fit: cover;
-    margin: 0px 0px 0px -25px;
   }
   
   .photo-grid-li:nth-child(4) {
